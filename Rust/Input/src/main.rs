@@ -6,6 +6,7 @@ use std::fs::File;
 
 fn main() {
     println!("What is your name?");
+    println!("Iam Vinoth");
     // let mut name =String::new();
     // let greeting ="Hi, Nice to meet you.";
     // io::stdin().read_line(& mut name)
