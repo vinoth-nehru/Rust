@@ -37,5 +37,10 @@ fn main() {
     println!("f32: {}",num1+0.111111111111111111);
     println!("f64: {}",num2+0.111111111111111111);
 
-    
+    //Type casting 
+
+    let int_u8 :u8 =5;
+    let int1_u8 :u8 =4;
+    let int_u32 :u32 =int1_u8 as u32 + int_u8 as u32;   
+    print!("{}", int_u32); 
 }
