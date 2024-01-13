@@ -12,5 +12,5 @@ fn main() {
     let greeting="Nice to meet you";
     io::stdin().read_line(& mut name)
         .expect("Didn't received input");
-    println!("Hi {}! {}",name,greeting);
+    println!("Hi {}! {}",name.trim_end(),greeting);
 }
